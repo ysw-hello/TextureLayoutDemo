@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "YSW_TableViewCell.h"
 
+#import "FlowViewController.h"
+
 #pragma mark - 常量参数
 static NSString * CellID = @"TextureLayoutCell";
 static CGFloat CellHeight = 60.f;
@@ -61,6 +63,7 @@ static CGFloat CellHeight = 60.f;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
+    [self.navigationController pushViewController:[FlowViewController new] animated:YES];
 }
 
 @end
