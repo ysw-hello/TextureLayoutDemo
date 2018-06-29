@@ -9,6 +9,12 @@
 #import "FlowViewController.h"
 #import <AsyncDisplayKit/ASCollectionNode+Beta.h>
 
+
+#import "CollectionNodeFlowLayout.h"
+#import "CollectionCellNode.h"
+
+#import "CollectionViewCell.h"
+
 @interface FlowViewController ()
 
 @end
@@ -25,6 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

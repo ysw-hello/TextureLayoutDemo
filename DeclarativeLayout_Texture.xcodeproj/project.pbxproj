@@ -72,6 +72,7 @@
 		E81C2A2F20E606A6000FA698 /* CollectionCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionCellNode.m; sourceTree = "<group>"; };
 		E81C2A3120E606D8000FA698 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		E81C2A3220E606D8000FA698 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		E81C2A3420E60895000FA698 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +154,7 @@
 				E81C29FA20E4BD72000FA698 /* LaunchScreen.storyboard */,
 				E81C29FD20E4BD72000FA698 /* Info.plist */,
 				E81C29FE20E4BD72000FA698 /* main.m */,
+				E81C2A3420E60895000FA698 /* PrefixHeader.pch */,
 			);
 			path = DeclarativeLayout_Texture;
 			sourceTree = "<group>";
@@ -529,6 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4FX4F26GS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DeclarativeLayout_Texture/PrefixHeader.pch";
 				INFOPLIST_FILE = DeclarativeLayout_Texture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ysw.DeclarativeLayout-Texture";
@@ -544,6 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4FX4F26GS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DeclarativeLayout_Texture/PrefixHeader.pch";
 				INFOPLIST_FILE = DeclarativeLayout_Texture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ysw.DeclarativeLayout-Texture";
