@@ -9,4 +9,9 @@
 
 @interface CollectionCellNode : ASCellNode
 
+@property (nonatomic, strong) UIImage *image;
+
+- (instancetype)initWithImage:(UIImage *)image;
+
+
 @end
