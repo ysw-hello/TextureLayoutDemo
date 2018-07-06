@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/CoreGraphics+ASConvenience.h
+../../../../Texture/Source/Details/CoreGraphics+ASConvenience.h

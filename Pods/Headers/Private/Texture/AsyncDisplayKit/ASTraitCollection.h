@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASTraitCollection.h
+../../../../Texture/Source/Details/ASTraitCollection.h

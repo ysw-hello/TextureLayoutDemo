@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASCollectionLayoutDelegate.h
+../../../../Texture/Source/Details/ASCollectionLayoutDelegate.h

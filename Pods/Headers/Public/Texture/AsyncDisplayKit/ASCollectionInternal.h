@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASCollectionInternal.h
+../../../../Texture/Source/Details/ASCollectionInternal.h

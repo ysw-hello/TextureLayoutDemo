@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Private/ASTipProvider.h
+../../../../Texture/Source/Private/ASTipProvider.h

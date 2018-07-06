@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/ASNetworkImageLoadInfo.h
+../../../../Texture/Source/ASNetworkImageLoadInfo.h

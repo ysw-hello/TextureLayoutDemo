@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/UIImage+ASConvenience.h
+../../../../Texture/Source/UIImage+ASConvenience.h

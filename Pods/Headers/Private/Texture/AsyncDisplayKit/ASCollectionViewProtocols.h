@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/ASCollectionViewProtocols.h
+../../../../Texture/Source/ASCollectionViewProtocols.h

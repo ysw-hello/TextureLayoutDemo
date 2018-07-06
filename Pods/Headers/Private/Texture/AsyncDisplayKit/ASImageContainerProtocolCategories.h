@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASImageContainerProtocolCategories.h
+../../../../Texture/Source/Details/ASImageContainerProtocolCategories.h

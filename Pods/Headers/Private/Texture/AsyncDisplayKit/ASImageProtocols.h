@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASImageProtocols.h
+../../../../Texture/Source/Details/ASImageProtocols.h

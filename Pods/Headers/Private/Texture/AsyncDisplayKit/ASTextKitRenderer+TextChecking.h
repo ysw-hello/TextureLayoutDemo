@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/TextKit/ASTextKitRenderer+TextChecking.h
+../../../../Texture/Source/TextKit/ASTextKitRenderer+TextChecking.h

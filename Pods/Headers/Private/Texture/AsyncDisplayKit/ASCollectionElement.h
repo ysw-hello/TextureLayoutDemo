@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASCollectionElement.h
+../../../../Texture/Source/Details/ASCollectionElement.h

@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASBatchFetchingDelegate.h
+../../../../Texture/Source/Details/ASBatchFetchingDelegate.h

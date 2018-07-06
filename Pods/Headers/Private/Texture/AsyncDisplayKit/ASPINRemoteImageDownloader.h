@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASPINRemoteImageDownloader.h
+../../../../Texture/Source/Details/ASPINRemoteImageDownloader.h

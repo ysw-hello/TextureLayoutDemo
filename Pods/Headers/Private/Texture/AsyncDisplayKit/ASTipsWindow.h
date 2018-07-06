@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Private/ASTipsWindow.h
+../../../../Texture/Source/Private/ASTipsWindow.h

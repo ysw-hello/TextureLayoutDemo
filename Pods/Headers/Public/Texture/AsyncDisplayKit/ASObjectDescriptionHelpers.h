@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASObjectDescriptionHelpers.h
+../../../../Texture/Source/Details/ASObjectDescriptionHelpers.h

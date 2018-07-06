@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Private/_ASCollectionGalleryLayoutItem.h
+../../../../Texture/Source/Private/_ASCollectionGalleryLayoutItem.h

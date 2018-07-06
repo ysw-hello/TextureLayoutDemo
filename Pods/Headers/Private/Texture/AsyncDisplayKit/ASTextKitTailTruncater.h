@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/TextKit/ASTextKitTailTruncater.h
+../../../../Texture/Source/TextKit/ASTextKitTailTruncater.h

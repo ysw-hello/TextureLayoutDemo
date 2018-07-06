@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASScrollDirection.h
+../../../../Texture/Source/Details/ASScrollDirection.h

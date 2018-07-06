@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASCollectionViewLayoutController.h
+../../../../Texture/Source/Details/ASCollectionViewLayoutController.h

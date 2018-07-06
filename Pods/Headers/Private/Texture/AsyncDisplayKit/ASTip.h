@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Private/ASTip.h
+../../../../Texture/Source/Private/ASTip.h

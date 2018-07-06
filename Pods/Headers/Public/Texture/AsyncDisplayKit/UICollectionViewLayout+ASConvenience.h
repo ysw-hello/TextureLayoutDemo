@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/UICollectionViewLayout+ASConvenience.h
+../../../../Texture/Source/Details/UICollectionViewLayout+ASConvenience.h

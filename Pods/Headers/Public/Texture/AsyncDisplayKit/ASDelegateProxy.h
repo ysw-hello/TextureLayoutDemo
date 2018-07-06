@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASDelegateProxy.h
+../../../../Texture/Source/Details/ASDelegateProxy.h

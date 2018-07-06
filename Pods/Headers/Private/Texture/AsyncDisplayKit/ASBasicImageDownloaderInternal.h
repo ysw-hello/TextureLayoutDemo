@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Private/ASBasicImageDownloaderInternal.h
+../../../../Texture/Source/Private/ASBasicImageDownloaderInternal.h

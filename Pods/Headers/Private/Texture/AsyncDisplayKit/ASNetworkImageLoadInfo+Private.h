@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Private/ASNetworkImageLoadInfo+Private.h
+../../../../Texture/Source/Private/ASNetworkImageLoadInfo+Private.h

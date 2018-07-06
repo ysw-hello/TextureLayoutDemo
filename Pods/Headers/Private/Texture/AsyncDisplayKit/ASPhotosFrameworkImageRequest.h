@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/ASPhotosFrameworkImageRequest.h
+../../../../Texture/Source/Details/ASPhotosFrameworkImageRequest.h

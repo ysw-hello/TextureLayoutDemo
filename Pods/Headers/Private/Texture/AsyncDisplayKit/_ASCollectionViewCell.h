@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Details/_ASCollectionViewCell.h
+../../../../Texture/Source/Details/_ASCollectionViewCell.h

@@ -1,1 +1,1 @@
-../../../../../../../Texture-master/Source/Private/ASImageNode+AnimatedImagePrivate.h
+../../../../Texture/Source/Private/ASImageNode+AnimatedImagePrivate.h
