@@ -22,6 +22,11 @@
 		E81C2A2D20E60671000FA698 /* CollectionNodeFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E81C2A2C20E60671000FA698 /* CollectionNodeFlowLayout.m */; };
 		E81C2A3020E606A6000FA698 /* CollectionCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E81C2A2F20E606A6000FA698 /* CollectionCellNode.m */; };
 		E81C2A3320E606D8000FA698 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81C2A3220E606D8000FA698 /* CollectionViewCell.m */; };
+		E886395720EE1A3400545450 /* StackSpecLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886395620EE1A3400545450 /* StackSpecLayoutViewController.m */; };
+		E886395A20EE1AB300545450 /* LayoutExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886395920EE1AB300545450 /* LayoutExamplesViewController.m */; };
+		E886395D20EE1B1D00545450 /* ExampleCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E886395C20EE1B1D00545450 /* ExampleCellNode.m */; };
+		E886396020EE1B4300545450 /* LayoutExampleNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = E886395F20EE1B4300545450 /* LayoutExampleNodes.m */; };
+		E886396320EE1BCC00545450 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E886396220EE1BCC00545450 /* Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,16 @@
 		E81C2A3120E606D8000FA698 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		E81C2A3220E606D8000FA698 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		E81C2A3420E60895000FA698 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E886395520EE1A3400545450 /* StackSpecLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackSpecLayoutViewController.h; sourceTree = "<group>"; };
+		E886395620EE1A3400545450 /* StackSpecLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackSpecLayoutViewController.m; sourceTree = "<group>"; };
+		E886395820EE1AB300545450 /* LayoutExamplesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutExamplesViewController.h; sourceTree = "<group>"; };
+		E886395920EE1AB300545450 /* LayoutExamplesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutExamplesViewController.m; sourceTree = "<group>"; };
+		E886395B20EE1B1D00545450 /* ExampleCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleCellNode.h; sourceTree = "<group>"; };
+		E886395C20EE1B1D00545450 /* ExampleCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleCellNode.m; sourceTree = "<group>"; };
+		E886395E20EE1B4300545450 /* LayoutExampleNodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutExampleNodes.h; sourceTree = "<group>"; };
+		E886395F20EE1B4300545450 /* LayoutExampleNodes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutExampleNodes.m; sourceTree = "<group>"; };
+		E886396120EE1BCC00545450 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		E886396220EE1BCC00545450 /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +162,7 @@
 				E81C29F020E4BD72000FA698 /* AppDelegate.m */,
 				E81C29F220E4BD72000FA698 /* ViewController.h */,
 				E81C29F320E4BD72000FA698 /* ViewController.m */,
+				E886395420EE17B800545450 /* FlexBoxLayout */,
 				E81C2A2720E60477000FA698 /* CollectionView */,
 				E81C2A2620E4E0FA000FA698 /* Cell */,
 				E81C29F520E4BD72000FA698 /* Main.storyboard */,
@@ -200,6 +216,23 @@
 				E81C2A3220E606D8000FA698 /* CollectionViewCell.m */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		E886395420EE17B800545450 /* FlexBoxLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E886395520EE1A3400545450 /* StackSpecLayoutViewController.h */,
+				E886395620EE1A3400545450 /* StackSpecLayoutViewController.m */,
+				E886395B20EE1B1D00545450 /* ExampleCellNode.h */,
+				E886395C20EE1B1D00545450 /* ExampleCellNode.m */,
+				E886395820EE1AB300545450 /* LayoutExamplesViewController.h */,
+				E886395920EE1AB300545450 /* LayoutExamplesViewController.m */,
+				E886395E20EE1B4300545450 /* LayoutExampleNodes.h */,
+				E886395F20EE1B4300545450 /* LayoutExampleNodes.m */,
+				E886396120EE1BCC00545450 /* Utilities.h */,
+				E886396220EE1BCC00545450 /* Utilities.m */,
+			);
+			path = FlexBoxLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,13 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E886395720EE1A3400545450 /* StackSpecLayoutViewController.m in Sources */,
+				E886395A20EE1AB300545450 /* LayoutExamplesViewController.m in Sources */,
 				E81C29F420E4BD72000FA698 /* ViewController.m in Sources */,
 				E81C29FF20E4BD72000FA698 /* main.m in Sources */,
 				E81C2A2A20E604DD000FA698 /* FlowViewController.m in Sources */,
 				E81C2A2D20E60671000FA698 /* CollectionNodeFlowLayout.m in Sources */,
+				E886395D20EE1B1D00545450 /* ExampleCellNode.m in Sources */,
 				E81C29F120E4BD72000FA698 /* AppDelegate.m in Sources */,
 				E81C2A2420E4D53E000FA698 /* YSW_TableViewCell.m in Sources */,
 				E81C2A3320E606D8000FA698 /* CollectionViewCell.m in Sources */,
+				E886396020EE1B4300545450 /* LayoutExampleNodes.m in Sources */,
+				E886396320EE1BCC00545450 /* Utilities.m in Sources */,
 				E81C2A3020E606A6000FA698 /* CollectionCellNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

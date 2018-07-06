@@ -10,6 +10,8 @@
 #import "YSW_TableViewCell.h"
 
 #import "FlowViewController.h"
+#import "StackSpecLayoutViewController.h"
+
 
 #pragma mark - 常量参数
 static NSString * CellID = @"TextureLayoutCell";
@@ -30,7 +32,7 @@ static CGFloat CellHeight = 60.f;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.dataArr = @[
-                     @[@"CollectionView", @"仿抖音同城-流式布局"],
+                     @[@"FlexBoxViews", @"声明式-弹性盒式布局"],
                      @[@"CollectionView", @"仿抖音同城-流式布局"]
                      ];
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([YSW_TableViewCell class]) bundle:nil] forCellReuseIdentifier:CellID];
@@ -62,8 +64,18 @@ static CGFloat CellHeight = 60.f;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    [self.navigationController pushViewController:[FlowViewController new] animated:YES];
+    switch (indexPath.row) {
+        case 0:
+            [self.navigationController pushViewController:[StackSpecLayoutViewController new] animated:YES];
+            break;
+            
+            case 1:
+            [self.navigationController pushViewController:[FlowViewController new] animated:YES];
+            break;
+            
+        default:
+            break;
+    }
 }
 
 @end
