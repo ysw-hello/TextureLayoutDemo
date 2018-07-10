@@ -12,6 +12,9 @@
 @property (nonatomic, strong) ASTextNode *usernameNode;
 @property (nonatomic, strong) ASTextNode *postLocationNode;
 @property (nonatomic, strong) ASTextNode *postTimeNode;
+@property (nonatomic, strong) ASTextNode *text1;
+@property (nonatomic, strong) ASTextNode *text2;
+@property (nonatomic, strong) ASTextNode *text3;
 
 @end
 
@@ -93,11 +96,26 @@
         
         _postLocationNode = [[ASTextNode alloc] init];
         _postLocationNode.maximumNumberOfLines = 1;
-        _postLocationNode.attributedText = [NSAttributedString attributedStringWithString:@"中国 北京 海淀区 上地六街 作业帮" fontSize:20 color:[UIColor lightBlueColor]];
+        _postLocationNode.attributedText = [NSAttributedString attributedStringWithString:@"中国 北京 海淀区 上地六街 作业帮 弘源首著 2009" fontSize:20 color:[UIColor lightBlueColor]];
         _postLocationNode.truncationMode = NSLineBreakByTruncatingTail;
         
+        _text1 = [ASTextNode new];
+        _text1.maximumNumberOfLines = 1;
+        _text1.attributedText = [NSAttributedString attributedStringWithString:@"qwertyqwerty" fontSize:20 color:[UIColor lightBlueColor]];
+        _text1.truncationMode = NSLineBreakByTruncatingTail;
+        
+        _text2 = [ASTextNode new];
+        _text2.maximumNumberOfLines = 1;
+        _text2.attributedText = [NSAttributedString attributedStringWithString:@"asdfghasdfgh" fontSize:20 color:[UIColor lightBlueColor]];
+        _text2.truncationMode = NSLineBreakByTruncatingTail;
+        
+        _text3 = [ASTextNode new];
+        _text3.maximumNumberOfLines = 1;
+        _text3.attributedText = [NSAttributedString attributedStringWithString:@"zxcvbnzxcvbn" fontSize:20 color:[UIColor lightBlueColor]];
+        _text3.truncationMode = NSLineBreakByTruncatingTail;
+        
         _postTimeNode = [[ASTextNode alloc] init];
-        _postTimeNode.attributedText = [NSAttributedString attributedStringWithString:@"30min" fontSize:20 color:[UIColor lightGrayColor]];
+        _postTimeNode.attributedText = [NSAttributedString attributedStringWithString:@"3min" fontSize:20 color:[UIColor lightGrayColor]];
         _postTimeNode.maximumNumberOfLines = 1;
         _postTimeNode.truncationMode = NSLineBreakByTruncatingTail;
     }
@@ -106,12 +124,14 @@
 
 - (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize {
     ASStackLayoutSpec *nameLocationStack = [ASStackLayoutSpec verticalStackLayoutSpec];
-    nameLocationStack.style.flexShrink = 1.0;
-    nameLocationStack.style.flexGrow = 1.0;
+    nameLocationStack.style.flexShrink = 1;
     nameLocationStack.children = @[_usernameNode, _postLocationNode];
+    _postTimeNode.style.flexShrink  = 0.2;
+    _text2.style.flexShrink = 1;
+    _text3.style.flexShrink = 1;
+
     
-    ASStackLayoutSpec *headerStack = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:40 justifyContent:ASStackLayoutJustifyContentStart alignItems:ASStackLayoutAlignItemsCenter children:@[nameLocationStack, _postTimeNode]];
-    
+    ASStackLayoutSpec *headerStack = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:20 justifyContent:ASStackLayoutJustifyContentStart alignItems:ASStackLayoutAlignItemsCenter children:@[nameLocationStack, _text1, _text2, _text3, _postTimeNode]];
     return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(0, 10, 0, 10) child:headerStack];
 }
 @end

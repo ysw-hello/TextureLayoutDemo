@@ -8,6 +8,7 @@
 
 #import "CollectionNodeFlowLayout.h"
 #import "CollectionCellNode.h"
+#import <Texture/AsyncDisplayKit/ASCollectionElement.h>
 
 @implementation CollectionNodeFlowLayoutInfo
 
